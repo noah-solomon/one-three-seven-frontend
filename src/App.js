@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Column from './Column';
-var url = "http://ots-tasks-backend.herokuapp.com";
+var url = "https://ots-tasks-backend.herokuapp.com";
 function App() {
   const getTasks = async () => {
     const response = await fetch(url + '/api/tasks/');
