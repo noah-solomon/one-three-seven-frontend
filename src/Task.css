@@ -1,0 +1,7 @@
+.Task {
+    text-align: left;
+    font-size: 20px;
+}
+.Task label {
+    margin-left: 10px;
+}
